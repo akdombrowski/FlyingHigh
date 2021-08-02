@@ -1,4 +1,4 @@
-﻿FlyingHigh
+﻿*FlyingHigh
 
 This mod basically allows you to jump really high. You can leap over castle walls with one jump. Settings give access to jump acceleration, jump speed limit, and percentage of damage taken from a fall.
 
