@@ -121,6 +121,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <Link>ModuleData\monsters.xml</Link>
     </Content>
+    <None Include="Readme .md" />
     <Content Include="Readme.txt" />
     <Content Include="SubModule.xml" />
   </ItemGroup>
