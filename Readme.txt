@@ -1,6 +1,8 @@
-﻿RichVillages
+﻿FlyingHigh
 
-This mod changes the amount of gold (denars) villages and towns start the day with.
+This mod basically allows you to jump really high. You can leap over castle walls with one jump. Settings give access to jump acceleration, jump speed limit, and percentage of damage taken from a fall.
+
+I can't guarantee you won't break the game with extreme numbers. Make sure you save before testing out different settings from default!
 
 :: REQUIREMENTS ::
 
@@ -8,16 +10,17 @@ This mod changes the amount of gold (denars) villages and towns start the day wi
 
 :: FEATURES ::
 
-* Customize your jump acceleration, jump speed, and fall damage.
+* Customize your jump acceleration, jump speed limit, and fall damage.
 
 :: GENERAL OTHER STUFF ::
 
-* The default for villages is 1k. Same as vanilla.
-* The default for towns is 100k. Same as vanilla.
+* The default for percentage of damage taken from a fall is 100%. Same as vanilla.
+* The default for jump acceleration is 4. Same as vanilla.
+* The default for jump speed limit is 0. Same as vanilla.
 
 Open source code:
 
-[Github](https://github.com/akdombrowski/RichVillages)
+[Github](https://github.com/akdombrowski/FlyingHigh)
 
 ---
 Helpful information for modders:
