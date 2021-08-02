@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monsters>
+  <!-- family_type:
+  0 for human
+  1 for horse
+  2 for camel
+  3 for cow
+  4 for goose
+  5 for hog
+  6 for sheep
+  7 for hare
+  -->
+  <Monster id="human" action_set="as_human_warrior" monster_usage="human" weight="80" hit_points="100" absorbed_damage_ratio="1.0" walking_speed_limit="1.8" crouch_walking_speed_limit="1.3" jump_acceleration="40.0" sound_and_collision_info_class="human" standing_eye_height="1.70" crouch_eye_height="1.10" mounted_eye_height="0.75" eye_offset_wrt_head="0.13, 0.1, 0.0" first_person_camera_offset_wrt_head="0.136, 0.1, 0.0" arm_length="0.9" arm_weight="5.0" jump_speed_limit="0" family_type="0" main_hand_item_bone="r_finger0" off_hand_item_bone="l_finger0" off_hand_item_secondary_bone="l_foretwist1" main_hand_num_bones_for_ik="6" off_hand_num_bones_for_ik="6" head_look_direction_bone="head" thorax_look_direction_bone="spine2">
+    <Capsules>
+      <body_capsule radius="0.37" pos1="0.0, 0.0, 1.55" pos2="0.0, 0, 0.8" />
+      <crouched_body_capsule radius="0.37" pos1="0.0, 0.0, 1.45" pos2="0.0, 0, 0.6" />
+    </Capsules>
+    <Flags CanAttack="true" CanDefend="true" CanKick="true" CanBeCharged="true" CanClimbLadders="true" CanBeInGroup="true" CanSprint="true" IsHumanoid="true" CanRide="true" CanWieldWeapon="true" CanCrouch="true" CanRetreat="true" />
+    <!-- flag name="CanGetAlarmed" /-->
+  </Monster>
+  <Monster id="human_child" action_set="as_human_child" monster_usage="human" weight="30" hit_points="100" absorbed_damage_ratio="1.0" walking_speed_limit="1.6" crouch_walking_speed_limit="1.3" jump_acceleration="4.0" sound_and_collision_info_class="human" standing_eye_height="1.20" crouch_eye_height="0.70" mounted_eye_height="0.75" eye_offset_wrt_head="0.13, 0.1, 0.0" first_person_camera_offset_wrt_head="0.0959, 0.0455, 0.0" arm_length="0.6" arm_weight="2.4" jump_speed_limit="0" family_type="0" main_hand_item_bone="r_finger0" off_hand_item_bone="l_finger0" off_hand_item_secondary_bone="l_foretwist1" main_hand_num_bones_for_ik="6" off_hand_num_bones_for_ik="6" head_look_direction_bone="head" thorax_look_direction_bone="spine2">
+    <Capsules>
+      <body_capsule radius="0.37" pos1="0.0, 0.0, 1.55" pos2="0.0, 0, 0.8" />
+      <crouched_body_capsule radius="0.37" pos1="0.0, 0.0, 1.45" pos2="0.0, 0, 0.6" />
+    </Capsules>
+    <Flags CanAttack="true" CanDefend="true" CanKick="true" CanBeCharged="true" CanClimbLadders="true" CanBeInGroup="true" CanSprint="true" IsHumanoid="true" CanRide="true" CanWieldWeapon="true" CanCrouch="true" CanRetreat="true" />
+    <!-- flag name="CanGetAlarmed" /-->
+  </Monster>
+  <Monster id="human_settlement" action_set="as_human_warrior" monster_usage="human" weight="80" hit_points="40" walking_speed_limit="1.4" jump_acceleration="40.0" sound_and_collision_info_class="human" standing_eye_height="1.70" crouch_eye_height="1.10" mounted_eye_height="0.75" eye_offset_wrt_head="0.13, 0.1, 0.0" first_person_camera_offset_wrt_head="0.0959, 0.0455, 0.0" arm_length="0.9" arm_weight="5.0" jump_speed_limit="0" family_type="0" main_hand_item_bone="r_finger0" off_hand_item_bone="l_finger0" off_hand_item_secondary_bone="l_foretwist1" main_hand_num_bones_for_ik="6" off_hand_num_bones_for_ik="6" head_look_direction_bone="head" thorax_look_direction_bone="spine2">
+    <Capsules>
+      <body_capsule radius="0.37" pos1="0.0, 0.0, 1.45" pos2="0.0, 0, 0.8" />
+    </Capsules>
+    <Flags CanAttack="true" CanDefend="true" CanBeCharged="true" CanClimbLadders="true" CanBeInGroup="true" CanSprint="true" IsHumanoid="true" CanRide="true" CanWieldWeapon="true" CanCrouch="true" />
+  </Monster>
+  <Monster id="human_settlement_slow" action_set="as_human_warrior" monster_usage="human" weight="80" hit_points="40" walking_speed_limit="1.1" jump_acceleration="40.0" sound_and_collision_info_class="human" standing_eye_height="1.70" crouch_eye_height="1.10" mounted_eye_height="0.75" eye_offset_wrt_head="0.13, 0.1, 0.0" first_person_camera_offset_wrt_head="0.0959, 0.0455, 0.0" arm_length="0.9" arm_weight="5.0" jump_speed_limit="0" family_type="0" main_hand_item_bone="r_finger0" off_hand_item_bone="l_finger0" off_hand_item_secondary_bone="l_foretwist1" main_hand_num_bones_for_ik="6" off_hand_num_bones_for_ik="6" head_look_direction_bone="head" thorax_look_direction_bone="spine2">
+    <Capsules>
+      <body_capsule radius="0.37" pos1="0.0, 0.0, 1.45" pos2="0.0, 0, 0.8" />
+    </Capsules>
+    <Flags CanAttack="true" CanDefend="true" CanBeCharged="true" CanClimbLadders="true" CanBeInGroup="true" CanSprint="true" IsHumanoid="true" CanRide="true" CanWieldWeapon="true" CanCrouch="true" />
+  </Monster>
+  <Monster id="human_settlement_fast" action_set="as_human_warrior" monster_usage="human" weight="80" hit_points="40" walking_speed_limit="1.6" jump_acceleration="40.0" sound_and_collision_info_class="human" standing_eye_height="1.70" crouch_eye_height="1.10" mounted_eye_height="0.75" eye_offset_wrt_head="0.13, 0.1, 0.0" first_person_camera_offset_wrt_head="0.0959, 0.0455, 0.0" arm_length="0.9" arm_weight="5.0" jump_speed_limit="0" family_type="0" main_hand_item_bone="r_finger0" off_hand_item_bone="l_finger0" off_hand_item_secondary_bone="l_foretwist1" main_hand_num_bones_for_ik="6" off_hand_num_bones_for_ik="6" head_look_direction_bone="head" thorax_look_direction_bone="spine2">
+    <Capsules>
+      <body_capsule radius="0.37" pos1="0.0, 0.0, 1.45" pos2="0.0, 0, 0.8" />
+    </Capsules>
+    <Flags CanAttack="true" CanDefend="true" CanBeCharged="true" CanClimbLadders="true" CanBeInGroup="true" CanSprint="true" IsHumanoid="true" CanRide="true" CanWieldWeapon="true" CanCrouch="true" CanJump="true" />
+  </Monster>
+  <Monster id="human_map" action_set="as_human_map" weight="80" monster_usage="human" hit_points="40" walking_speed_limit="1.6" sound_and_collision_info_class="human" standing_eye_height="1.70" crouch_eye_height="1.10" mounted_eye_height="0.75" eye_offset_wrt_head="0.13, 0.1, 0.0" first_person_camera_offset_wrt_head="0.0959, 0.0455, 0.0" arm_length="0.9" arm_weight="5.0" jump_speed_limit="0" family_type="0" main_hand_item_bone="r_finger0" off_hand_item_bone="l_finger0" off_hand_item_secondary_bone="l_foretwist1" main_hand_num_bones_for_ik="6" off_hand_num_bones_for_ik="6" head_look_direction_bone="head" thorax_look_direction_bone="spine2">
+    <Flags CanAttack="true" CanDefend="true" CanBeCharged="true" CanClimbLadders="true" CanBeInGroup="true" CanSprint="true" IsHumanoid="true" CanRide="true" CanWieldWeapon="true" CanCrouch="true" CanJump="true" />
+  </Monster>
+  <Monster id="horse" action_set="as_horse" monster_usage="horse" weight="400" hit_points="200" absorbed_damage_ratio="1.0" num_paces="6" jump_acceleration="6.5" sound_and_collision_info_class="horse" rider_camera_height_adder="-0.1" rider_body_capsule_height_adder="-0.9" rider_body_capsule_forward_adder="0.2" standing_eye_height="1.85" rider_eye_height_adder="1.7" eye_offset_wrt_head="0.13, -0.15, 0.0" jump_speed_limit="3.5" relative_speed_limit_for_charge="4.3" family_type="1" rider_sit_bone="horsespine2" rein_handle_bone="horsespine3" rein_collision_1_bone="horseneck1" rein_collision_2_bone="horseneck2" head_look_direction_bone="horse_head" thorax_look_direction_bone="horsespine3" rein_handle_left_local_pos="0.25,-0.3,0.15" rein_handle_right_local_pos="0.25,-0.3,-0.15">
+    <Capsules>
+      <body_capsule radius="0.4" pos1="0, 1.0, 1.15" pos2="0, -0.57, 1.15" />
+    </Capsules>
+    <Flags Mountable="true" CanRear="true" RunsAwayWhenHit="true" CanCharge="true" CanWander="true" />
+  </Monster>
+  <Monster id="camel" action_set="as_camel" monster_usage="camel" weight="400" hit_points="200" absorbed_damage_ratio="1.0" num_paces="6" jump_acceleration="6.5" sound_and_collision_info_class="camel" rider_camera_height_adder="0.0" rider_body_capsule_height_adder="-0.8" rider_body_capsule_forward_adder="0.65" standing_eye_height="1.85" rider_eye_height_adder="2.20" eye_offset_wrt_head="0.13, -0.15, 0.0" jump_speed_limit="100.0" relative_speed_limit_for_charge="5.0" family_type="2" rider_sit_bone="camel_spine2" rein_handle_bone="camel_chest" rein_collision_1_bone="camel_neck1" rein_collision_2_bone="camel_neck5" head_look_direction_bone="camel_head" thorax_look_direction_bone="camel_spine2" rein_handle_left_local_pos="0.25,-0.3,0.15" rein_handle_right_local_pos="0.25,-0.3,-0.15">
+    <Capsules>
+      <body_capsule radius="0.4" pos1="0, 1.2, 1.5" pos2="0, -0.37, 1.5" />
+    </Capsules>
+    <Flags Mountable="true" CanRear="true" RunsAwayWhenHit="true" CanCharge="true" CanWander="true" />
+  </Monster>
+  <Monster id="camel_unmountable" action_set="as_camel" monster_usage="camel" weight="400" hit_points="200" absorbed_damage_ratio="1.0" num_paces="6" jump_acceleration="6.5" sound_and_collision_info_class="camel" rider_camera_height_adder="0.0" rider_body_capsule_height_adder="-0.8" rider_body_capsule_forward_adder="0.65" standing_eye_height="1.85" rider_eye_height_adder="2.20" eye_offset_wrt_head="0.13, -0.15, 0.0" jump_speed_limit="100.0" relative_speed_limit_for_charge="5.0" family_type="2" rider_sit_bone="camel_spine2" rein_handle_bone="camel_chest" rein_collision_1_bone="camel_neck1" rein_collision_2_bone="camel_neck5" head_look_direction_bone="camel_head" thorax_look_direction_bone="camel_spine2" rein_handle_left_local_pos="0.25,-0.3,0.15" rein_handle_right_local_pos="0.25,-0.3,-0.15">
+    <Capsules>
+      <body_capsule radius="0.4" pos1="0, 1.2, 1.5" pos2="0, -0.37, 1.5" />
+    </Capsules>
+    <Flags CanRear="true" RunsAwayWhenHit="true" CanCharge="true" CanWander="true" />
+  </Monster>
+  <Monster id="mule" action_set="as_horse" monster_usage="horse" weight="400" hit_points="100" absorbed_damage_ratio="1.0" num_paces="6" jump_acceleration="6.5" sound_and_collision_info_class="donkey" rider_camera_height_adder="-0.1" rider_body_capsule_height_adder="-0.9" rider_body_capsule_forward_adder="0.2" standing_eye_height="1.85" rider_eye_height_adder="1.70" eye_offset_wrt_head="0.13, -0.15, 0.0" jump_speed_limit="3.5" relative_speed_limit_for_charge="5.0" family_type="1" rider_sit_bone="horsespine2" rein_handle_bone="horsespine3" rein_collision_1_bone="horseneck1" rein_collision_2_bone="horseneck2" head_look_direction_bone="horse_head" thorax_look_direction_bone="horsespine3" rein_handle_left_local_pos="0.25,-0.3,0.15" rein_handle_right_local_pos="0.25,-0.3,-0.15">
+    <Capsules>
+      <body_capsule radius="0.4" pos1="0, 1.0, 1.15" pos2="0, -0.57, 1.15" />
+    </Capsules>
+    <Flags Mountable="true" CanRear="true" RunsAwayWhenHit="true" CanCharge="true" CanWander="true" />
+  </Monster>
+  <Monster id="mule_unmountable" action_set="as_horse" monster_usage="horse" weight="400" hit_points="100" absorbed_damage_ratio="1.0" num_paces="6" jump_acceleration="6.5" sound_and_collision_info_class="donkey" rider_camera_height_adder="-0.1" rider_body_capsule_height_adder="-0.9" rider_body_capsule_forward_adder="0.2" standing_eye_height="1.85" rider_eye_height_adder="1.70" eye_offset_wrt_head="0.13, -0.15, 0.0" jump_speed_limit="3.5" relative_speed_limit_for_charge="5.0" family_type="1" rider_sit_bone="horsespine2" rein_handle_bone="horsespine3" rein_collision_1_bone="horseneck1" rein_collision_2_bone="horseneck2" head_look_direction_bone="horse_head" thorax_look_direction_bone="horsespine3" rein_handle_left_local_pos="0.25,-0.3,0.15" rein_handle_right_local_pos="0.25,-0.3,-0.15">
+    <Capsules>
+      <body_capsule radius="0.4" pos1="0, 1.0, 1.15" pos2="0, -0.57, 1.15" />
+    </Capsules>
+    <Flags CanRear="true" RunsAwayWhenHit="true" CanCharge="true" CanWander="true" />
+  </Monster>
+  <Monster id="horse_2" action_set="as_horse_2" monster_usage="horse" weight="400" hit_points="200" absorbed_damage_ratio="1.0" num_paces="6" jump_acceleration="8" sound_and_collision_info_class="horse" rider_camera_height_adder="-0.1" rider_body_capsule_height_adder="-0.9" rider_body_capsule_forward_adder="0.2" standing_eye_height="1.85" rider_eye_height_adder="1.70" eye_offset_wrt_head="0.13, -0.15, 0.0" jump_speed_limit="3.5" relative_speed_limit_for_charge="5.0" family_type="1" rider_sit_bone="horsespine2" rein_handle_bone="horsespine3" rein_collision_1_bone="horseneck1" rein_collision_2_bone="horseneck2" head_look_direction_bone="horse_head" thorax_look_direction_bone="horsespine3" rein_handle_left_local_pos="0.25,-0.3,0.15" rein_handle_right_local_pos="0.25,-0.3,-0.15">
+    <Capsules>
+      <body_capsule radius="0.4" pos1="0, 1.0, 1.15" pos2="0, -0.57, 1.15" />
+    </Capsules>
+    <Flags Mountable="true" CanRear="true" RunsAwayWhenHit="true" CanCharge="true" CanWander="true" />
+  </Monster>
+  <Monster id="cow" action_set="as_cow" monster_usage="animals" weight="500" hit_points="150" num_paces="5" jump_acceleration="0" sound_and_collision_info_class="bovine" standing_eye_height="1.50" eye_offset_wrt_head="0.07, -0.05, 0.0" jump_speed_limit="3.5" family_type="3" head_look_direction_bone="bn_head_27" thorax_look_direction_bone="bn_spine_03_14">
+    <Capsules>
+      <body_capsule radius="0.4" pos1="0, 1.0, 1.15" pos2="0, -0.57, 1.15" />
+    </Capsules>
+    <Flags RunsAwayWhenHit="true" CanWander="true" MoveAsHerd="true" MoveForwardOnly="true" />
+  </Monster>
+  <Monster id="dog" action_set="as_dog" monster_usage="animals" weight="70" hit_points="70" num_paces="6" jump_acceleration="3" sound_and_collision_info_class="dog" standing_eye_height="0.88" eye_offset_wrt_head="0.07, -0.05, 0.0" rider_sit_bone="Dog_root" jump_speed_limit="3.5" family_type="6" head_look_direction_bone="Rig_Head">
+    <Capsules>
+      <body_capsule radius="0.35" pos1="0,  0.55, 0.5" pos2="0, -0.25, 0.5" />
+    </Capsules>
+    <Flags MoveAsHerd="true" RunsAwayWhenHit="true" CanWander="true" MoveForwardOnly="true" CanGetScared="true" />
+  </Monster>
+  <Monster id="goose" action_set="as_goose" monster_usage="animals" weight="10" hit_points="50" num_paces="5" jump_acceleration="3" sound_and_collision_info_class="goose" standing_eye_height="0.55" eye_offset_wrt_head="0.07, -0.05, 0.0" jump_speed_limit="6.5" family_type="4" head_look_direction_bone="goose_bn_head">
+    <Capsules>
+      <body_capsule radius="0.2" pos1="0, 0.1, 0.3" pos2="0, -0.1, 0.3" />
+    </Capsules>
+    <Flags MoveAsHerd="true" RunsAwayWhenHit="true" CanWander="true" CanGetScared="true" MoveForwardOnly="true" />
+  </Monster>
+  <Monster id="chicken" action_set="as_chicken" monster_usage="animals" weight="10" hit_points="50" num_paces="5" jump_acceleration="3" sound_and_collision_info_class="chicken" standing_eye_height="0.55" eye_offset_wrt_head="0.07, -0.05, 0.0" jump_speed_limit="6.5" family_type="8" head_look_direction_bone="head">
+    <Capsules>
+      <body_capsule radius="0.2" pos1="0, 0.1, 0.3" pos2="0, -0.1, 0.3" />
+    </Capsules>
+    <Flags MoveAsHerd="true" RunsAwayWhenHit="true" CanWander="true" CanGetScared="true" MoveForwardOnly="true" />
+  </Monster>
+  <Monster id="hog" action_set="as_hog" monster_usage="animals" weight="180" hit_points="100" num_paces="6" jump_acceleration="0" sound_and_collision_info_class="boar" standing_eye_height="0.50" eye_offset_wrt_head="0.07, -0.05, 0.0" jump_speed_limit="3.5" family_type="5" head_look_direction_bone="hog_head_joint" thorax_look_direction_bone="hog_spine_3_joint">
+    <Capsules>
+      <body_capsule radius="0.35" pos1="0, 0.5, 0.5" pos2="0, -0.5, 0.5" />
+    </Capsules>
+    <Flags MoveAsHerd="true" RunsAwayWhenHit="true" CanWander="true" MoveForwardOnly="true" CanGetScared="true" />
+  </Monster>
+  <Monster id="sheep" action_set="as_sheep" monster_usage="animals" weight="300" hit_points="25" num_paces="5" jump_acceleration="6" sound_and_collision_info_class="ovine" standing_eye_height="0.7" eye_offset_wrt_head="0.07, -0.05, 0.0" jump_speed_limit="3.5" family_type="6" head_look_direction_bone="shp_head_bn">
+    <Capsules>
+      <body_capsule radius="0.25" pos1="0,  0.55, 0.5" pos2="0, -0.25, 0.5" />
+    </Capsules>
+    <Flags MoveAsHerd="true" RunsAwayWhenHit="true" CanWander="true" MoveForwardOnly="true" CanGetScared="true" />
+  </Monster>
+  <Monster id="cat" action_set="as_cat" monster_usage="animals" weight="7" hit_points="100" num_paces="6" jump_acceleration="6" sound_and_collision_info_class="dog" standing_eye_height="0.4" eye_offset_wrt_head="0.04, -0.05, 0.0" jump_speed_limit="3.5" family_type="8" head_look_direction_bone="catHead" thorax_look_direction_bone="catSpine2">
+    <Capsules>
+      <body_capsule radius="0.1" pos1="0,  0.2, 0.2" pos2="0, -0.15, 0.2" />
+    </Capsules>
+    <Flags RunsAwayWhenHit="true" CanWander="true" CanRear="true" CanGetScared="true" MoveForwardOnly="true" />
+  </Monster>
+  <!-- <Monster id="hare" action_set="hare" monster_usage="horse" weight="5" hit_points="5" num_paces="6" jump_acceleration="1.5" standing_eye_height="0.1" eye_offset_wrt_head="0.2, -0.01, 0.0" jump_speed_limit="3.5" family_type="7"> not real values for eye_offset_wrt_head
+    <Capsules>
+      <body_capsule radius="0.1" pos1="0,  0.4, 0.0" pos2="0, -0.1, 0" />
+    </Capsules>
+    <flags>
+      <flag name="RunsAwayWhenHit" />
+      <flag name="CanBeCharged" />
+      <flag name="CanGetScared" />
+      <flag name="CanWander" />
+      <flag name="MoveAsHerd" />
+      <flag name="MoveForwardOnly" />
+    </flags>
+  </Monster>-->
+</Monsters>
